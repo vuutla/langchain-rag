@@ -1,8 +1,8 @@
 # from langchain.document_loaders import DirectoryLoader
 from langchain_community.document_loaders import DirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema import Document
-# from langchain.embeddings import OpenAIEmbeddings
+# from langchain.embeddings import OpenAIEmbeddingshttps://github.com/microsoft/pylance-release/blob/main/docs/diagnostics/reportMissingImports.md
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 import openai 
